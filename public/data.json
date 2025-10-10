@@ -1,36 +1,32 @@
 {
 	"about": {
-		"firstname": "Alireza",
-		"lastname": "Fazel",
-		"jobTitle": "Front End Developer",
-		"description": "A highly efficient and reliable React JS developer specializing in web development who is interested in design and learning.\nI have much experience in teamwork and excellent problem-solving skills.",
+		"firstname": "Mohammad",
+		"lastname": "Aghaei Molasaraei",
+		"jobTitle": "Data Scientist and AI Specialist",
+		"description": "With a strong foundation in statistics and machine learning, I develop data-driven solutions that transform raw information into actionable insights. My focus is on applying analytical techniques and predictive models to solve real-world challenges and support smarter decision-making.",
 		"image": "/assets/images/about/about.jpg",
 		"socialLinks": [
 			{
-				"icon": "location",
-				"value": "Tehran - Isfahan"
+				"icon": "Location",
+				"value": "Italy - Napoli"
 			},
 			{
-				"icon": "phone",
-				"value": "+98 9338234878",
-				"link": "tel: +98 9338234878"
+				"icon": "Phone",
+				"value": "+39 3336733900",
+				"link": "tel: +39 3336733900"
 			},
 			{
-				"icon": "mail",
-				"value": "Alirezafazel379@gmail.com",
-				"link": "mailto: alirezafazel379@gmail.com"
+				"icon": "Mail",
+				"value": "Mohammadaghaei103@gmail.com",
+				"link": "mailto: Mohammadaghaei103@gmail.com"
 			},
 			{
-				"icon": "twitter",
-				"value": "Alirezafz2000"
+				"icon": "Linkedin",
+				"value": "mohammad-aghaei-molasaraei-b37036311"
 			},
 			{
-				"icon": "linkedin",
-				"value": "alireza-fazel-863204199"
-			},
-			{
-				"icon": "instagram",
-				"value": "alireza_fz_2000"
+				"icon": "Instagram",
+				"value": "mohammad___ag"
 			}
 		]
 	},
