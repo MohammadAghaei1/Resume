@@ -201,7 +201,7 @@
 				"type": "On site",
 				"jobTitle": "Electronics Repair Technician",
 				"icon": "/assets/images/works/repair.jpg",
-				"link": "http://jahanelecoffice.ir/",
+				"link": "https://mftgilan.com/",
 				"bulletPoints": [
 					"Diagnosed and repaired hardware issues in mobile phones and laptop motherboards.",
 					"Performed board-level troubleshooting using multimeters, oscilloscopes, and soldering tools.",
@@ -264,7 +264,7 @@
 						"title": "PCB diagnostics"
 					},
 					{
-						"title": "SSoldering and desoldering"
+						"title": "Soldering and desoldering"
 					}
 				]
 			}
