@@ -201,6 +201,7 @@
 				"type": "On site",
 				"jobTitle": "Electronics Repair Technician",
 				"icon": "/assets/images/works/repair.jpg",
+				"link": "http://jahanelecoffice.ir/",
 				"bulletPoints": [
 					"Diagnosed and repaired hardware issues in mobile phones and laptop motherboards.",
 					"Performed board-level troubleshooting using multimeters, oscilloscopes, and soldering tools.",
