@@ -2,7 +2,7 @@
 	"about": {
 		"firstname": "Mohammad",
 		"lastname": "Aghaei Molasaraei",
-		"jobTitle": "Data Scientist and AI Specialist",
+		"jobTitle": "Data scientist and AI specialist",
 		"description": "With a strong foundation in statistics and machine learning, I develop data-driven solutions that transform raw information into actionable insights. My focus is on applying analytical techniques and predictive models to solve real-world challenges and support smarter decision-making.",
 		"image": "/assets/images/about/about.jpg",
 		"socialLinks": [
@@ -17,8 +17,8 @@
 			},
 			{
 				"icon": "Mail",
-				"value": "Mohammadaghaei103@gmail.com",
-				"link": "mailto: Mohammadaghaei103@gmail.com"
+				"value": "mohammadaghaei103@gmail.com",
+				"link": "mailto: mohammadaghaei103@gmail.com"
 			},
 			{
 				"icon": "Linkedin",
@@ -33,37 +33,156 @@
 	"projects": {
 		"items": [
 			{
-				"title": "Malltina",
-				"description": "E-Commerce Web Application",
+				"title": "Plantdoc image processing",
+				"description": "Detecte and classify plant disease",
 				"date": {
-					"start": "Jul 2021",
-					"finish": "Present"
+					"start": "June 2025",
+					"finish": "October 2025"
 				},
-				"role": "Front-End Developer",
-				"icon": "/assets/images/works/malltina.jpg",
-				"link": "https://malltina.com",
+				"role": "Computer vision developer",
+				"icon": "/assets/images/works/plantdoc.jpg",
+				"link": "https://github.com/MohammadAghaei1/Plantdoc-image-processing",
 				"bulletPoints": [
-					"Implemented purchasing portal from Asian countries including Turkey, UAE, and China",
-					"Rewrote a new version of the most viewed web pages using Next.js based on micro-frontend architecture",
-					"Maintained graphic standards and branding throughout the product's interfaces using base components",
-					"Improved code base quality and performance optimization",
-					"Rewrote a complete new version of the search page, along with performance optimizations"
+					"Developed an object detection model for identifying plant diseases using the YOLOv12 architecture.",
+					"Collected and labeled a dataset of plant leaf images for model training and evaluation.",
+					"Trained and fine-tuned YOLOv12 to detect multiple types of leaf diseases with high accuracy.",
+					"Built an interface to upload plant images and display real-time detection results with bounding boxes.",
+					"Evaluated model performance using metrics such as mAP (mean Average Precision) and inference speed."
 				],
 				"hardSkills": [
 					{
-						"title": "Next.js"
+						"title": "Python programming"
 					},
 					{
-						"title": "React.js"
+						"title": "Deep learning"
 					},
 					{
-						"title": "Typescript"
+						"title": "Object detection"
 					},
 					{
-						"title": "Javascript"
+						"title": "YOLOv12"
 					},
 					{
-						"title": "Sass"
+						"title": "OpenCV"
+					},
+					{
+						"title": "Model evaluation"
+					},
+					{
+						"title": "Computer vision"
+					}
+				]
+			},
+			{
+				"title": "Acea smart water analytics",
+				"description": "Forcasting water level",
+				"date": {
+					"start": "May 2025",
+					"finish": "June 2025"
+				},
+				"role": "Data scientist",
+				"icon": "/assets/images/works/lake.jpg",
+				"link": "https://github.com/MohammadAghaei1/Acea-Smart-Water-Analytics",
+				"bulletPoints": [
+					"Collected and preprocessed historical water level and weather data from multiple sources.",
+  					"Applied statistical and machine learning techniques to forecast future water levels.",
+				    "Trained and optimized predictive models using time series methods such as SARIMA and ARIMA.",
+  					"Visualized results and trends to support smart water management and decision-making.",
+  					"Evaluated model accuracy using metrics such as RMSE and MAE to ensure reliable predictions."
+				],
+				"hardSkills": [
+					{
+						"title": "Python programming"
+					},
+					{
+						"title": "Machine learning"
+					},
+					{
+						"title": "Data preprocessing"
+					},
+					{
+						"title": "Time series forecasting"
+					},
+					{
+						"title": "SARIMA & ARIMA models"
+					},
+					{
+						"title": "Pandas & NumPy"
+					},
+					{
+						"title": "Matplotlib & Seaborn"
+					}
+				]
+			},
+			{
+				"title": "Polynomial car price prediction",
+				"description": "Predicting car price ",
+				"date": {
+					"start": "July 2025",
+					"finish": "August 2025"
+				},
+				"role": "Data scientist",
+				"icon": "/assets/images/works/car.jpg",
+				"link": "https://github.com/MohammadAghaei1/Polynomial-Car-price-prediction-",
+				"bulletPoints": [
+					"Collected and cleaned car sales data including features such as brand, mileage, year, and engine size.",
+  					"Performed exploratory data analysis (EDA) to identify key factors affecting car prices.",
+  					"Implemented and trained polynomial regression models to predict car prices with improved accuracy.",
+  					"Compared model performance with other algorithms such as linear regression and decision trees and XG boost.",
+  					"Visualized predicted vs. actual car prices using Matplotlib and Seaborn for performance evaluation."
+				],
+				"hardSkills": [
+					{
+						"title": "Data visualization"
+					},
+					{
+						"title": "Feature engineering"
+					},
+					{
+						"title": "Data preprocessing"
+					},
+					{
+						"title": "Hyperparameter tuning"
+					},
+					{
+						"title": "Correlation analysis"
+					},
+					{
+						"title": "Performance metrics analysis"
+					}
+				]
+			},
+			{
+				"title": "Italian medicines agency AIFA",
+				"description": "Collecting and analyzing pharmaceutical data from the AIFA official database ",
+				"date": {
+					"start": "March 2025",
+					"finish": "May 2025"
+				},
+				"role": "Data Engineer",
+				"icon": "/assets/images/works/aifa.jpg",
+				"link": "https://github.com/MohammadAghaei1/Italian-Medicines-Agency-AIFA-",
+				"bulletPoints": [
+					"Downloaded and merged official medicine lists (Class A and Class H) from the AIFA portal.",
+    				"Cleaned and standardized the dataset by removing duplicates and incomplete entries.",
+    				"Automated data extraction from AIFA’s public database using Python-based web scraping tools.",
+    				"Extracted clinical and regulatory information such as therapeutic indications, contraindications, and side effects.",
+    				"Built a relational database structure and normalized the dataset for efficient querying.",
+    				"Created interactive Power BI dashboards to visualize drug distributions, side effect frequencies, and ATC classifications.",
+    				"Executed analytical SQL queries to extract insights, such as most frequent therapeutic indications and contraindications."
+				],
+				"hardSkills": [
+					{
+						"title": "Web scraping (Selenium)"
+					},
+					{
+						"title": "Data cleaning and preprocessing"
+					},
+					{
+						"title": "SQL and database normalization"
+					},
+					{
+						"title": "Power BI dashboard design"
 					}
 				]
 			}
@@ -72,131 +191,79 @@
 	"works": {
 		"items": [
 			{
-				"title": "Malltina",
-				"description": "E-Commerce Web Application",
+				"title": "Mobile Phone and laptop Repairs",
+				"description": "Specialized repairs of mobile and laptop boards",
 				"date": {
-					"start": "Jul 2021",
-					"finish": "Present"
+					"start": "Jan 2017",
+					"finish": "Fed 2019"
 				},
-				"location": "Karaj",
-				"type": "Remote",
-				"jobTitle": "Front-End Developer",
-				"icon": "/assets/images/works/malltina.jpg",
-				"link": "https://malltina.com",
+				"location": "Rasht",
+				"type": "On site",
+				"jobTitle": "Electronics Repair Technician",
+				"icon": "/assets/images/works/repair.jpg",
 				"bulletPoints": [
-					"Implemented purchasing portal from Asian countries including Turkey, UAE, and China",
-					"Rewrote a new version of the most viewed web pages using Next.js based on micro-frontend architecture",
-					"Mentored 2 junior front-end developers who wanted to get a deep understanding of React.js and Next.js",
-					"Maintained graphic standards and branding throughout the product's interfaces using base components",
-					"Improved code base quality and performance optimization",
-					"Rewrote a complete new version of the search page, along with performance optimizations"
+					"Diagnosed and repaired hardware issues in mobile phones and laptop motherboards.",
+					"Performed board-level troubleshooting using multimeters, oscilloscopes, and soldering tools.",
+					"Replaced faulty components such as ICs, capacitors, resistors, and charging ports.",
+					"Recovered and restored devices affected by water damage and power-related faults.",
+					"Maintained detailed repair reports and ensured consistent quality control.",
+					"Provided customer support and technical advice regarding device maintenance and data safety."
 				],
 				"hardSkills": [
 					{
-						"title": "Next.js"
+						"title": "Electronics Repair"
 					},
 					{
-						"title": "React.js"
+						"title": "Motherboard Troubleshooting"
 					},
 					{
-						"title": "Typescript"
+						"title": "Soldering and Desoldering"
 					},
 					{
-						"title": "Javascript"
+						"title": "Multimeter and Oscilloscope Usage"
 					},
 					{
-						"title": "Sass"
+						"title": "Mobile Phone Repair"
+					},
+					{
+						"title": "Technical Documentation"
+					},
+					{
+						"title": "Laptop Hardware Maintenance"
 					}
 				]
 			},
 			{
-				"title": "Limoonline",
-				"description": "Virtual Classroom Landing Page",
+				"title": "Specialized Board Repair",
+				"description": "Repairing indsutrial boards in Engineer Office Jahan",
 				"date": {
-					"start": "Feb 2022",
-					"finish": "Present"
+					"start": "June 2021",
+					"finish": "Apr 2023"
 				},
-				"location": "",
-				"type": "Remote",
-				"jobTitle": "Front-End Developer",
-				"icon": "/assets/images/works/limoonline.jpg",
-				"link": "https://limoonline.ir",
+				"location": "Rasht",
+				"type": "On site",
+				"jobTitle": "Electronics Repair Technicianr",
+				"icon": "/assets/images/works/jahan.jpg",
+				"link": "http://jahanelecoffice.ir/",
 				"bulletPoints": [
-					"Developed responsive landing page for virtual classroom platform",
-					"Implemented interactive UI components using React.js",
-					"Optimized page loading speed and user experience",
-					"Collaborated with design team to ensure pixel-perfect implementation"
+					"Diagnosed and repaired industrial control and power boards with complex circuit faults.",
+					"Performed board-level troubleshooting using multimeters, oscilloscopes, and logic analyzers.",
+					"Replaced and re-soldered surface-mount and through-hole components such as ICs, capacitors, and resistors.",
+					"Restored malfunctioning boards by identifying short circuits and damaged traces.",
+					"Collaborated with senior engineers to improve fault detection accuracy and repair time efficiency."
 				],
 				"hardSkills": [
 					{
-						"title": "React.js"
+						"title": "Power electronics"
 					},
 					{
-						"title": "Sass"
-					}
-				]
-			},
-			{
-				"title": "Aramicmedtour",
-				"description": "Health Tour Web Application",
-				"date": {
-					"start": "Mar 2020",
-					"finish": "Jul 2021"
-				},
-				"location": "Isfahan",
-				"type": "Remote",
-				"jobTitle": "Front-End Developer",
-				"icon": "/assets/images/works/aramicmedtour.png",
-				"link": "https://aramicmedtour.com",
-				"bulletPoints": [
-					"Built comprehensive health tourism platform with booking system",
-					"Developed multi-language support for international patients",
-					"Implemented secure payment gateway integration",
-					"Created admin dashboard for managing medical packages and bookings"
-				],
-				"hardSkills": [
-					{
-						"title": "Next.js"
+						"title": "Electronic schematic reading"
 					},
 					{
-						"title": "React.js"
-					}
-				]
-			},
-			{
-				"title": "Gentleman Barbershop",
-				"description": "Barbershop Reservation Website",
-				"date": {
-					"start": "Jan 2020",
-					"finish": "Mar 2021"
-				},
-				"location": "",
-				"type": "Freelance",
-				"jobTitle": "PHP Developer",
-				"icon": "/assets/images/works/limoonline.jpg",
-				"link": "",
-				"bulletPoints": [
-					"Developed custom reservation system for barbershop appointments",
-					"Built customer management system with appointment history",
-					"Implemented email notifications for appointment confirmations",
-					"Created responsive design for mobile and desktop users",
-					"Integrated payment processing for online bookings"
-				],
-				"hardSkills": [
-					{
-						"title": "PHP"
+						"title": "PCB diagnostics"
 					},
 					{
-						"title": "My SQL"
-					},
-					{
-						"title": "Javascript"
-					},
-					{
-						"title": "Html"
-					},
-					{
-						"title": "CSS"
+						"title": "SSoldering and desoldering"
 					}
 				]
 			}
@@ -206,37 +273,40 @@
 		"title": "Hard Skills",
 		"items": [
 			{
-				"title": "Next.js"
+				"title": "Python"
 			},
 			{
-				"title": "React.js"
+				"title": "Machine learning"
 			},
 			{
-				"title": "Typescript"
+				"title": "Deep learning"
 			},
 			{
-				"title": "Javascript"
+				"title": "Neural network"
 			},
 			{
-				"title": "Sass"
+				"title": "Statistic"
 			},
 			{
-				"title": "Git"
+				"title": "Data preprocessing"
 			},
 			{
-				"title": "Html"
-			},
-			{
-				"title": "CSS"
-			},
-			{
-				"title": "jQuery"
-			},
-			{
-				"title": "PHP"
+				"title": "Feature engineering"
 			},
 			{
 				"title": "My SQL"
+			},
+			{
+				"title": "Power BI"
+			},
+			{
+				"title": "Electronics Repair"
+			},
+			{
+				"title": "Power electronics"
+			},
+			{
+				"title": "Motherboard Troubleshooting"
 			}
 		]
 	},
@@ -257,25 +327,25 @@
 		"title": "Educational History",
 		"items": [
 			{
-				"name": "Shamsipour Tehran",
-				"type": "Technical & Vocational",
+				"name": "University of Guilan",
+				"type": "University",
 				"grade": "Bachelor's Degree",
-				"science": "Software Engineering",
-				"icon": "/assets/images/education/shamsipour.png",
+				"science": "Computer science",
+				"icon": "/assets/images/education/University_of_Guilan.png",
 				"date": {
-					"start": "2020",
+					"start": "2018",
 					"finish": "2022"
 				}
 			},
 			{
-				"name": "Mohajer Isfahan",
-				"type": "Technical & Vocational",
-				"grade": "Associate's Degree",
-				"science": "Computer Engineering",
-				"icon": "/assets/images/education/mohajer.jpg",
+				"name": "Università degli Studi di Napoli Federico II",
+				"type": "University",
+				"grade": "Master's Degree",
+				"science": "Data science",
+				"icon": "/assets/images/education/University_of_federico_II.jpg",
 				"date": {
-					"start": "2018",
-					"finish": "2020"
+					"start": "2024",
+					"finish": "Present"
 				}
 			}
 		]
