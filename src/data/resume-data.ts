@@ -2,10 +2,10 @@ import { ResumeData } from '../interfaces/resumeData';
 
 export const resumeData: ResumeData = {
 	about: {
-		firstname: "Alireza",
-		lastname: "Fazel",
-		jobTitle: "Data Scientist & Software Engineer",
-		description: "I'm a Data Science student passionate about Machine Learning and Deep Learning, supported by over three years of foundational Software Engineering experience. My expertise lies in analyzing complex data and developing diverse machine learning models—including predictive, classification, and deep learning solutions—optimizing neural networks using Python, TensorFlow, and PyTorch. I focus on building high-performing models and extracting meaningful insights from challenging datasets.",
+		firstname: "Mohammad",
+		lastname: "Aghaei Molasaraei",
+		jobTitle: "Data scientist and AI specialist",
+		description: "With a strong foundation in statistics and machine learning, I develop data-driven solutions that transform raw information into actionable insights. My focus is on applying analytical techniques and predictive models to solve real-world challenges and support smarter decision-making.",
 		image: "/assets/images/about/about.jpg",
 		socialLinks: [
 			{
@@ -14,83 +14,81 @@ export const resumeData: ResumeData = {
 			},
 			{
 				icon: "phone",
-				value: "+39 3347089250",
-				link: "tel: +39 3347089250"
+				value: "+39 3336733900",
+				link: "tel: +39 3336733900"
 			},
 			{
 				icon: "mail",
-				value: "alirezafazel379@gmail.com",
-				link: "mailto: alirezafazel379@gmail.com"
+				value: "mohammadaghaei103@gmail.com",
+				link: "mailto: mohammadaghaei103@gmail.com"
 			},
 			{
 				icon: "linkedin",
-				value: "alireza-fazel-863204199",
-				link: "https://www.linkedin.com/in/alireza-fazel-863204199/"
+				value: "mohammad-aghaei-molasaraei-b37036311",
+				link: "https://www.linkedin.com/in/mohammad-aghaei-molasaraei-b37036311/"
 			},
 			{
 				icon: "github",
-				value: "GitHub: aliknot",
-				link: "https://github.com/aliknot"
+				value: "GitHub: MohammadAghaei1",
+				link: "https://github.com/MohammadAghaei1"
 			}
 		]
 	},
 	projects: {
 		items: [
 			{
-				title: "Facial Expression Recognition",
-				description: "A deep learning project to recognize facial expressions using CNNs and advanced computer vision techniques.",
-				role: "Data Scientist",
-				link: "https://github.com/aliknot/AffectNet_Facial_Expression_Recognition.git",
+				title: "Plantdoc image processing",
+				description: "Detecte and classify plant disease",
+				role: "Computer vision developer",
+				link: "https://github.com/MohammadAghaei1/Plantdoc-image-processing",
 				bulletPoints: [
-					"Benchmarked ResNet18 and ResNet50 architectures for 8-class emotion classification (Anger, Contempt, Disgust, Fear, Happy, Neutral, Sad, Surprise)",
-					"Developed computer vision pipeline using AffectNet dataset with 96x96 pixel face-cropped images",
-					"Built binary and multi-class classification models for comparative performance analysis",
-					"Applied data augmentation and oversampling techniques with 70/20/10 train/validation/test splits",
-					"Implemented T-SNE visualization for high-dimensional feature space analysis",
-					"Conducted data quality analysis including color bias, brightness/contrast, and sharpness metrics",
-					"Created end-to-end Jupyter Notebook pipeline for Data Mining coursework"
+					"Developed an object detection model for identifying plant diseases using the YOLOv12 architecture.",
+					"Collected and labeled a dataset of plant leaf images for model training and evaluation.",
+					"Trained and fine-tuned YOLOv12 to detect multiple types of leaf diseases with high accuracy.",
+					"Built an interface to upload plant images and display real-time detection results with bounding boxes.",
+					"Evaluated model performance using metrics such as mAP (mean Average Precision) and inference speed."
 				],
 				skills: [
 					{
 						title: "Core Technologies",
-						items: ["Python", "TensorFlow", "Keras", "Jupyter Notebooks"]
+						items: ["Python", "TensorFlow", "OpenCV", "Jupyter Notebooks"]
 					},
 					{
 						title: "Techniques",
-						items: ["Deep Learning", "Computer Vision", "CNNs", "ResNet18", "ResNet50", "Data Augmentation", "T-SNE", "Data Mining"]
+						items: ["Deep Learning", "Computer Vision", "CNNs", "YOLOv12", "Object detection", "Data Augmentation", "T-SNE", "Data Mining"]
 					}
 				]
 			},
 			{
-				title: "Classification of Open-Ended Metrics for LLM Tasks",
-				description: "Comprehensive study classifying evaluation metrics for Large Language Models and open-ended NLP tasks.",
-				role: "Research Analyst",
+				title: "Acea smart water analytics",
+				description: "Forcasting water level",
+				role: "Data scientist",
+				link: "https://github.com/MohammadAghaei1/Acea-Smart-Water-Analytics",
 				bulletPoints: [
-					"Conducted comprehensive classification study of 100+ evaluation metrics for open-ended NLP and LLM tasks",
-					"Categorized metrics across multiple dimensions: automatic vs. human evaluation, reference-based vs. reference-free approaches",
-					"Analyzed evaluation complexity and computational requirements for different metric categories",
-					"Investigated trade-offs between evaluation accuracy, computational efficiency, and human annotation requirements",
-					"Created detailed comparative analysis of metric reliability and applicability for various NLP scenarios"
+					"Collected and preprocessed historical water level and weather data from multiple sources.",
+  					"Applied statistical and machine learning techniques to forecast future water levels.",
+				    "Trained and optimized predictive models using time series methods such as SARIMA and ARIMA.",
+  					"Visualized results and trends to support smart water management and decision-making.",
+  					"Evaluated model accuracy using metrics such as RMSE and MAE to ensure reliable predictions."
 				],
 				skills: [
 					{
-						title: "Research & Analysis",
-						items: ["NLP", "Large Language Models", "LLM Evaluation", "Metric Classification", "Research Methodology", "Evaluation Frameworks", "Data Analysis"]
+						title: "Data Analysis",
+						items: ["Python", "Machine learning", "Data preprocessing", "Time series forecasting", "SARIMA & ARIMA models", "Pandas & NumPy", "Matplotlib & Seaborn"]
 					}
 				]
 			},
 			{
-				title: "Stroke Prediction using Machine Learning",
-				description: "End-to-end ML pipeline for predicting stroke risk based on health and demographic factors, developed for Statistical Learning course.",
+				title: "Polynomial car price prediction",
+				description: "Predicting car price",
 				role: "Data Scientist",
-				link: "https://github.com/aliknot/stroke-prediction",
+				link: "https://github.com/MohammadAghaei1/Polynomial-Car-price-prediction-",
 				bulletPoints: [
-					"Developed end-to-end ML pipeline for stroke risk prediction from health and demographic data",
-					"Implemented robust preprocessing pipeline with missing value handling, outlier detection, and feature scaling",
-					"Built and compared multiple classification models (Logistic Regression, Random Forest, XGBoost, SVM)",
-					"Applied SMOTE and resampling techniques to handle class imbalance",
-					"Performed hyperparameter tuning and cross-validation for model optimization",
-					"Analyzed feature importance to identify key stroke predictors"
+					"Collected and cleaned car sales data including features such as brand, mileage, year, and engine size.",
+  					"Performed exploratory data analysis (EDA) to identify key factors affecting car prices.",
+  					"Implemented and trained polynomial regression models to predict car prices with improved accuracy.",
+  					"Compared model performance with other algorithms such as linear regression and decision trees and XG boost.",
+  					"Visualized predicted vs. actual car prices using Matplotlib and Seaborn for performance evaluation."
 				],
 				skills: [
 					{
@@ -99,7 +97,32 @@ export const resumeData: ResumeData = {
 					},
 					{
 						title: "Techniques",
-						items: ["Machine Learning", "Statistical Learning", "Classification", "Data Preprocessing", "Feature Engineering", "EDA", "SMOTE", "Cross-Validation", "Hyperparameter Tuning", "Model Evaluation"]
+						items: ["Machine Learning", "Statistical Learning", "Data visualization", "Data Preprocessing", "Hyperparameter tuning", "EDA", "Correlation analysis", "Cross-Validation", "Hyperparameter Tuning", "Model Evaluation"]
+					}
+				]
+			},
+			{
+				title: "Italian medicines agency AIFA",
+				description: "Collecting and analyzing pharmaceutical data from the AIFA official database",
+				role: "Data Engineer",
+				link: "https://github.com/MohammadAghaei1/Italian-Medicines-Agency-AIFA-",
+				bulletPoints: [
+					"Downloaded and merged official medicine lists (Class A and Class H) from the AIFA portal.",
+    				"Cleaned and standardized the dataset by removing duplicates and incomplete entries.",
+    				"Automated data extraction from AIFA’s public database using Python-based web scraping tools.",
+    				"Extracted clinical and regulatory information such as therapeutic indications, contraindications, and side effects.",
+    				"Built a relational database structure and normalized the dataset for efficient querying.",
+    				"Created interactive Power BI dashboards to visualize drug distributions, side effect frequencies, and ATC classifications.",
+    				"Executed analytical SQL queries to extract insights, such as most frequent therapeutic indications and contraindications."
+				],
+				skills: [
+					{
+						title: "Core Technologies",
+						items: ["Python", "SQL", "Pandas", "NumPy", "Jupyter Notebooks","Power BI"]
+					},
+					{
+						title: "Techniques",
+						items: ["Web scraping (Selenium)", "Data cleaning and preprocessing", "SQL and database normalization", "Data Preprocessing", "Power BI dashboard design"]
 					}
 				]
 			}
@@ -108,93 +131,55 @@ export const resumeData: ResumeData = {
 	works: {
 		items: [
 			{
-				title: "Apple Developer Academy @Unina Federico II",
-				description: "ML-powered iOS Application Development",
+				title: "Mobile Phone and laptop Repairs",
+				description: "Specialized repairs of mobile and laptop boards",
 				date: {
-					start: "Sep 2024",
-					finish: "Jun 2025"
+					start: "January 2017",
+					finish: "february 2019"
 				},
-				location: "Naples",
-				type: "Italy",
-				jobTitle: "iOS Developer",
-				icon: "/assets/images/works/apple-academy.png",
+				location: "Rasht",
+				type: "On site",
+				jobTitle: "Electronics Repair Technician",
+				icon: "/assets/images/works/repair.jpg",
+				link: "https://mftgilan.com/",
 				bulletPoints: [
-					"Developed iOS applications integrating on-device machine learning using Core ML and Create ML",
-					"Built SwiftUI interfaces following Apple's Human Interface Guidelines",
-					"Implemented data persistence solutions using SwiftData",
-					"Applied product thinking principles to deliver user-centric solutions",
-					"Distributed beta versions through TestFlight for user testing and feedback"
+					"Diagnosed and repaired hardware issues in mobile phones and laptop motherboards.",
+					"Performed board-level troubleshooting using multimeters, oscilloscopes, and soldering tools.",
+					"Replaced faulty components such as ICs, capacitors, resistors, and charging ports.",
+					"Recovered and restored devices affected by water damage and power-related faults.",
+					"Maintained detailed repair reports and ensured consistent quality control.",
+					"Provided customer support and technical advice regarding device maintenance and data safety."
 				],
 				skills: [
 					{
-						title: "iOS Development",
-						items: ["Swift", "SwiftUI", "Core ML", "Create ML", "SwiftData", "TestFlight"]
-					},
-					{
-						title: "Practices",
-						items: ["Product Thinking", "On-Device ML", "Beta Testing"]
+						title: "Electronics Repair",
+						items: ["Motherboard Troubleshooting", "Soldering and Desoldering", "Multimeter and Oscilloscope Usage", "Mobile Phone Repair", "Technical Documentation", "Laptop Hardware Maintenance"]
 					}
 				]
 			},
 			{
-				title: "Malltina",
-				description: "E-Commerce Web Application",
+				title: "Specialized Board Repair",
+				description: "Repairing indsutrial boards in Engineer Office Jahan",
 				date: {
-					start: "Jul 2021",
-					finish: "Present"
+					start: "June 2021",
+					finish: "April 2023"
 				},
-				location: "Karaj",
-				type: "Remote",
-				jobTitle: "Front-End Developer",
-				icon: "/assets/images/works/malltina.jpg",
-				link: "https://malltina.com",
+				location: "Rasht",
+				type: "On site",
+				jobTitle: "Electronics Repair Technician",
+				icon: "/assets/images/works/jahan.jpg",
+				link: "http://jahanelecoffice.ir/",
 				bulletPoints: [
-					"Implemented purchasing portal from Asian countries including Turkey, UAE, and China",
-					"Rewrote a new version of the most viewed web pages using Next.js based on micro-frontend architecture",
-					"Mentored 2 junior front-end developers who wanted to get a deep understanding of React.js and Next.js",
-					"Maintained graphic standards and branding throughout the product's interfaces using base components",
-					"Improved code base quality and performance optimization",
-					"Rewrote a complete new version of the search page, along with performance optimizations"
+					"Diagnosed and repaired industrial control and power boards with complex circuit faults.",
+					"Performed board-level troubleshooting using multimeters, oscilloscopes, and logic analyzers.",
+					"Replaced and re-soldered surface-mount and through-hole components such as ICs, capacitors, and resistors.",
+					"Restored malfunctioning boards by identifying short circuits and damaged traces.",
+					"Collaborated with senior engineers to improve fault detection accuracy and repair time efficiency."
 				],
 				skills: [
 					{
-						title: "Technologies",
-						items: ["Next.js", "React.js", "TypeScript", "JavaScript", "Sass"]
-					},
-					{
-						title: "Practices",
-						items: ["Micro-frontend Architecture", "Performance Optimization", "Mentoring", "Code Quality"]
-					}
-				]
-			},
-			{
-				title: "Aramicmedtour",
-				description: "Health Tour Web Application",
-				date: {
-					start: "Mar 2020",
-					finish: "Jul 2021"
-				},
-				location: "Isfahan",
-				type: "Remote",
-				jobTitle: "Front-End Developer",
-				icon: "/assets/images/works/aramicmedtour.png",
-				link: "https://aramicmedtour.com",
-				bulletPoints: [
-					"Implemented and designed the main pages (e.g. doctor, hospital, and hotel pages)",
-					"Revised the usage of Next.js by utilizing SSR and SSG.",
-                    "Added internationalization support to the web application (based on i18n)",
-                    "Instructed and guided two interns by providing them with tutorials and assigning basic tasks and responsibilities to them",
-                    "Improved code base quality and performance optimization",
-					"Created admin dashboard for managing medical packages and bookings"
-				],
-				skills: [
-					{
-						title: "Technologies",
-						items: ["Next.js", "React.js", "JavaScript", "HTML5", "CSS", "Git"]
-					},
-					{
-						title: "Practices",
-						items: ["Responsive Web Design", "Scrum", "Code Quality", "Internationalization (i18n)", "SSR", "SSG"]
+						title: "Board Repairs",
+						items: ["Power electronics", "Electronic schematic reading", "PCB diagnostics", "Soldering and desoldering"]
 					}
 				]
 			}
@@ -207,7 +192,7 @@ export const resumeData: ResumeData = {
 		},
 		{
 			title: "Software Development",
-			items: ["JavaScript", "TypeScript", "React.js", "Next.js", "Node.js", "HTML", "CSS", "Sass", "Tailwind CSS", "Git", "GitHub", "RESTful APIs", "Redux", "Zustand", "React Query", "SWR", "Styled Components", "Emotion", "Responsive Web Design", "Micro-frontend Architecture", "Performance Optimization", "PHP", "MySQL", "jQuery", "Web Development", "Front-End Development", "Swift", "SwiftUI", "Core ML", "Create ML", "SwiftData", "TestFlight", "iOS Development", "Mobile Development"]
+			items: ["Git", "GitHub", "Power BI", "My SQL", "MySQL", "Core ML", "Create ML"]
 		},
 		{
 			title: "Methodologies & Tools",
@@ -221,35 +206,24 @@ export const resumeData: ResumeData = {
 	education: {
 		items: [
 			{
-				name: "University of Naples Federico II",
+				name: "Università degli Studi di Napoli Federico II",
 				grade: "Master's Degree",
 				science: "Data Science",
-				icon: "/assets/images/education/federico-ii.jpeg",
+				icon: "/assets/images/education/University_of_federico_II.jpg",
 				date: {
-					start: "2023",
-					finish: "2026"
+					start: "2024",
+					finish: "Present"
 				}
 			},
 			{
-				name: "Shamsipour Tehran",
-				type: "Technical & Vocational",
+				name: "University of Guilan",
+				type: "University",
 				grade: "Bachelor's Degree",
-				science: "Software Engineering",
-				icon: "/assets/images/education/shamsipour.png",
-				date: {
-					start: "2020",
-					finish: "2022"
-				}
-			},
-			{
-				name: "Mohajer Isfahan",
-				type: "Technical & Vocational",
-				grade: "Associate's Degree",
-				science: "Computer Engineering",
-				icon: "/assets/images/education/mohajer.jpg",
+				science: "Computer science",
+				icon: "/assets/images/education/University_of_Guilan.png",
 				date: {
 					start: "2018",
-					finish: "2020"
+					finish: "2022"
 				}
 			}
 		]
